@@ -14,21 +14,11 @@ A command-line ESM-2 workflow that performs batched masked-token inference and c
 
 ### 2. `sequence_feature_database/` — reproducible biological data integration
 
-A reduced DuckDB pipeline that validates aligned protein sequences and mutation-score tables, records input checksums, builds derived mutation features with SQL window functions and runs full-table integrity checks. Synthetic inputs are supplied so the example is runnable.
+A reduced DuckDB pipeline that validates aligned protein sequences and mutation-score tables, records input checksums, builds derived mutation features with SQL window functions and runs full-table integrity checks. Synthetic inputs are supplied.
 
 ### 3. `grouped_model_demo/` — leakage-aware ML evaluation
 
 A generalised candidate-ranking example using position-grouped train/test splitting, class-balanced gradient boosting and both classification and within-position ranking metrics. All data and labels in this example are synthetic.
-
-## Repository scope
-
-The aim of this repository is to show representative coding style and computational approaches without prematurely releasing methods or data from ongoing unpublished work. In particular, it intentionally omits:
-
-- the complete research database schema and publication build logic;
-- project-specific structural data processing and feature definitions;
-- exact historical/future target definitions;
-- final model feature catalogues, ablation suites and publication evaluation settings;
-- unpublished sequence datasets, model outputs and numerical results.
 
 ## Environment
 
