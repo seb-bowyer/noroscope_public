@@ -4,8 +4,6 @@ A compact DuckDB example showing how I structure reproducible biological-data in
 
 The script validates aligned protein sequences and masked-language-model mutation scores, records SHA-256 input identities, keeps source data separate from derived features, and builds a queryable mutation-feature view using SQL window functions. It also runs simple full-table invariants before the database is considered usable.
 
-This is **not** the database implementation used in an unpublished manuscript. It is a deliberately reduced example derived from the same engineering principles, using synthetic inputs only.
-
 ## Run
 
 ```bash
